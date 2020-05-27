@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>登入頁面</title>
+</head>
+<body>
+<form action="" method="POST">
+    <h1>登入</h1>
+  {% csrf_token %}
+  登入姓名:<input type="text" name="name">
+  登入密碼:<input type="password" name="password">
+  <input type="submit" value="提交">
+</form>
+</body>
+</html>
